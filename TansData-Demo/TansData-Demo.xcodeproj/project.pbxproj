@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF90A7951D683161000D1381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF90A7931D683161000D1381 /* Main.storyboard */; };
+		BF90A7971D683161000D1381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF90A7961D683161000D1381 /* Assets.xcassets */; };
+		BF90A79A1D683161000D1381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF90A7981D683161000D1381 /* LaunchScreen.storyboard */; };
+		BF90A7A51D683161000D1381 /* TansData_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7A41D683161000D1381 /* TansData_DemoTests.m */; };
+		BF90A7B01D683161000D1381 /* TansData_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7AF1D683161000D1381 /* TansData_DemoUITests.m */; };
+		BF90A7C41D6831B6000D1381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7BF1D6831B6000D1381 /* AppDelegate.m */; };
+		BF90A7C51D6831B6000D1381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7C01D6831B6000D1381 /* main.m */; };
+		BF90A7C61D6831B6000D1381 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7C31D6831B6000D1381 /* ViewController.m */; };
+		BF90A7CB1D68321D000D1381 /* UIView+JGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7CA1D68321D000D1381 /* UIView+JGExtension.m */; };
+		BF90A7CE1D683701000D1381 /* JGBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7CD1D683701000D1381 /* JGBasicViewController.m */; };
+		BF90A7E01D683936000D1381 /* JGDelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7DF1D683936000D1381 /* JGDelegateVC.m */; };
+		BF90A7E31D683952000D1381 /* JGBlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7E21D683952000D1381 /* JGBlockVC.m */; };
+		BF90A7E61D683B0E000D1381 /* JGNotificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7E51D683B0E000D1381 /* JGNotificationVC.m */; };
+		BF90A7E91D683B1C000D1381 /* JGGlobalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7E81D683B1C000D1381 /* JGGlobalVC.m */; };
+		BF90A7EC1D683B2A000D1381 /* JGSingletonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7EB1D683B2A000D1381 /* JGSingletonVC.m */; };
+		BF90A7EF1D68456C000D1381 /* JGTextSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90A7EE1D68456C000D1381 /* JGTextSingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF90A7A11D683161000D1381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF90A77F1D683161000D1381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF90A7861D683161000D1381;
+			remoteInfo = "TansData-Demo";
+		};
+		BF90A7AC1D683161000D1381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF90A77F1D683161000D1381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF90A7861D683161000D1381;
+			remoteInfo = "TansData-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF90A7871D683161000D1381 /* TansData-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TansData-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF90A7941D683161000D1381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF90A7961D683161000D1381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF90A7991D683161000D1381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF90A79B1D683161000D1381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF90A7A01D683161000D1381 /* TansData-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TansData-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF90A7A41D683161000D1381 /* TansData_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TansData_DemoTests.m; sourceTree = "<group>"; };
+		BF90A7A61D683161000D1381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF90A7AB1D683161000D1381 /* TansData-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TansData-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF90A7AF1D683161000D1381 /* TansData_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TansData_DemoUITests.m; sourceTree = "<group>"; };
+		BF90A7B11D683161000D1381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF90A7BE1D6831B6000D1381 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF90A7BF1D6831B6000D1381 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF90A7C01D6831B6000D1381 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF90A7C21D6831B6000D1381 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF90A7C31D6831B6000D1381 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF90A7C91D68321D000D1381 /* UIView+JGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JGExtension.h"; sourceTree = "<group>"; };
+		BF90A7CA1D68321D000D1381 /* UIView+JGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JGExtension.m"; sourceTree = "<group>"; };
+		BF90A7CC1D683701000D1381 /* JGBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGBasicViewController.h; sourceTree = "<group>"; };
+		BF90A7CD1D683701000D1381 /* JGBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGBasicViewController.m; sourceTree = "<group>"; };
+		BF90A7DE1D683936000D1381 /* JGDelegateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGDelegateVC.h; sourceTree = "<group>"; };
+		BF90A7DF1D683936000D1381 /* JGDelegateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGDelegateVC.m; sourceTree = "<group>"; };
+		BF90A7E11D683952000D1381 /* JGBlockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGBlockVC.h; sourceTree = "<group>"; };
+		BF90A7E21D683952000D1381 /* JGBlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGBlockVC.m; sourceTree = "<group>"; };
+		BF90A7E41D683B0E000D1381 /* JGNotificationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGNotificationVC.h; sourceTree = "<group>"; };
+		BF90A7E51D683B0E000D1381 /* JGNotificationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGNotificationVC.m; sourceTree = "<group>"; };
+		BF90A7E71D683B1C000D1381 /* JGGlobalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGGlobalVC.h; sourceTree = "<group>"; };
+		BF90A7E81D683B1C000D1381 /* JGGlobalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGGlobalVC.m; sourceTree = "<group>"; };
+		BF90A7EA1D683B2A000D1381 /* JGSingletonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGSingletonVC.h; sourceTree = "<group>"; };
+		BF90A7EB1D683B2A000D1381 /* JGSingletonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGSingletonVC.m; sourceTree = "<group>"; };
+		BF90A7ED1D68456C000D1381 /* JGTextSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGTextSingleton.h; sourceTree = "<group>"; };
+		BF90A7EE1D68456C000D1381 /* JGTextSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGTextSingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF90A7841D683161000D1381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF90A79D1D683161000D1381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF90A7A81D683161000D1381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF90A77E1D683161000D1381 = {
+			isa = PBXGroup;
+			children = (
+				BF90A7891D683161000D1381 /* TansData-Demo */,
+				BF90A7A31D683161000D1381 /* TansData-DemoTests */,
+				BF90A7AE1D683161000D1381 /* TansData-DemoUITests */,
+				BF90A7881D683161000D1381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF90A7881D683161000D1381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF90A7871D683161000D1381 /* TansData-Demo.app */,
+				BF90A7A01D683161000D1381 /* TansData-DemoTests.xctest */,
+				BF90A7AB1D683161000D1381 /* TansData-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF90A7891D683161000D1381 /* TansData-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BF90A7C71D6831EA000D1381 /* Category */,
+				BF90A7BD1D6831B6000D1381 /* Apps */,
+				BF90A7C11D6831B6000D1381 /* Controllers */,
+				BF90A78A1D683161000D1381 /* Supporting Files */,
+			);
+			path = "TansData-Demo";
+			sourceTree = "<group>";
+		};
+		BF90A78A1D683161000D1381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF90A7931D683161000D1381 /* Main.storyboard */,
+				BF90A7961D683161000D1381 /* Assets.xcassets */,
+				BF90A7981D683161000D1381 /* LaunchScreen.storyboard */,
+				BF90A79B1D683161000D1381 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF90A7A31D683161000D1381 /* TansData-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF90A7A41D683161000D1381 /* TansData_DemoTests.m */,
+				BF90A7A61D683161000D1381 /* Info.plist */,
+			);
+			path = "TansData-DemoTests";
+			sourceTree = "<group>";
+		};
+		BF90A7AE1D683161000D1381 /* TansData-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF90A7AF1D683161000D1381 /* TansData_DemoUITests.m */,
+				BF90A7B11D683161000D1381 /* Info.plist */,
+			);
+			path = "TansData-DemoUITests";
+			sourceTree = "<group>";
+		};
+		BF90A7BD1D6831B6000D1381 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				BF90A7BE1D6831B6000D1381 /* AppDelegate.h */,
+				BF90A7BF1D6831B6000D1381 /* AppDelegate.m */,
+				BF90A7C01D6831B6000D1381 /* main.m */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		BF90A7C11D6831B6000D1381 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF90A7C21D6831B6000D1381 /* ViewController.h */,
+				BF90A7C31D6831B6000D1381 /* ViewController.m */,
+				BF90A7CC1D683701000D1381 /* JGBasicViewController.h */,
+				BF90A7CD1D683701000D1381 /* JGBasicViewController.m */,
+				BF90A7DE1D683936000D1381 /* JGDelegateVC.h */,
+				BF90A7DF1D683936000D1381 /* JGDelegateVC.m */,
+				BF90A7E11D683952000D1381 /* JGBlockVC.h */,
+				BF90A7E21D683952000D1381 /* JGBlockVC.m */,
+				BF90A7E41D683B0E000D1381 /* JGNotificationVC.h */,
+				BF90A7E51D683B0E000D1381 /* JGNotificationVC.m */,
+				BF90A7E71D683B1C000D1381 /* JGGlobalVC.h */,
+				BF90A7E81D683B1C000D1381 /* JGGlobalVC.m */,
+				BF90A7EA1D683B2A000D1381 /* JGSingletonVC.h */,
+				BF90A7EB1D683B2A000D1381 /* JGSingletonVC.m */,
+				BF90A7ED1D68456C000D1381 /* JGTextSingleton.h */,
+				BF90A7EE1D68456C000D1381 /* JGTextSingleton.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BF90A7C71D6831EA000D1381 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BF90A7C81D68321D000D1381 /* UIViewFrame */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BF90A7C81D68321D000D1381 /* UIViewFrame */ = {
+			isa = PBXGroup;
+			children = (
+				BF90A7C91D68321D000D1381 /* UIView+JGExtension.h */,
+				BF90A7CA1D68321D000D1381 /* UIView+JGExtension.m */,
+			);
+			path = UIViewFrame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF90A7861D683161000D1381 /* TansData-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF90A7B41D683161000D1381 /* Build configuration list for PBXNativeTarget "TansData-Demo" */;
+			buildPhases = (
+				BF90A7831D683161000D1381 /* Sources */,
+				BF90A7841D683161000D1381 /* Frameworks */,
+				BF90A7851D683161000D1381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TansData-Demo";
+			productName = "TansData-Demo";
+			productReference = BF90A7871D683161000D1381 /* TansData-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF90A79F1D683161000D1381 /* TansData-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF90A7B71D683161000D1381 /* Build configuration list for PBXNativeTarget "TansData-DemoTests" */;
+			buildPhases = (
+				BF90A79C1D683161000D1381 /* Sources */,
+				BF90A79D1D683161000D1381 /* Frameworks */,
+				BF90A79E1D683161000D1381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF90A7A21D683161000D1381 /* PBXTargetDependency */,
+			);
+			name = "TansData-DemoTests";
+			productName = "TansData-DemoTests";
+			productReference = BF90A7A01D683161000D1381 /* TansData-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF90A7AA1D683161000D1381 /* TansData-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF90A7BA1D683161000D1381 /* Build configuration list for PBXNativeTarget "TansData-DemoUITests" */;
+			buildPhases = (
+				BF90A7A71D683161000D1381 /* Sources */,
+				BF90A7A81D683161000D1381 /* Frameworks */,
+				BF90A7A91D683161000D1381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF90A7AD1D683161000D1381 /* PBXTargetDependency */,
+			);
+			name = "TansData-DemoUITests";
+			productName = "TansData-DemoUITests";
+			productReference = BF90A7AB1D683161000D1381 /* TansData-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF90A77F1D683161000D1381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JG;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JUN;
+				TargetAttributes = {
+					BF90A7861D683161000D1381 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BF90A79F1D683161000D1381 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF90A7861D683161000D1381;
+					};
+					BF90A7AA1D683161000D1381 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF90A7861D683161000D1381;
+					};
+				};
+			};
+			buildConfigurationList = BF90A7821D683161000D1381 /* Build configuration list for PBXProject "TansData-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF90A77E1D683161000D1381;
+			productRefGroup = BF90A7881D683161000D1381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF90A7861D683161000D1381 /* TansData-Demo */,
+				BF90A79F1D683161000D1381 /* TansData-DemoTests */,
+				BF90A7AA1D683161000D1381 /* TansData-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF90A7851D683161000D1381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF90A79A1D683161000D1381 /* LaunchScreen.storyboard in Resources */,
+				BF90A7971D683161000D1381 /* Assets.xcassets in Resources */,
+				BF90A7951D683161000D1381 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF90A79E1D683161000D1381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF90A7A91D683161000D1381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF90A7831D683161000D1381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF90A7C61D6831B6000D1381 /* ViewController.m in Sources */,
+				BF90A7CE1D683701000D1381 /* JGBasicViewController.m in Sources */,
+				BF90A7E91D683B1C000D1381 /* JGGlobalVC.m in Sources */,
+				BF90A7EF1D68456C000D1381 /* JGTextSingleton.m in Sources */,
+				BF90A7E01D683936000D1381 /* JGDelegateVC.m in Sources */,
+				BF90A7CB1D68321D000D1381 /* UIView+JGExtension.m in Sources */,
+				BF90A7EC1D683B2A000D1381 /* JGSingletonVC.m in Sources */,
+				BF90A7E31D683952000D1381 /* JGBlockVC.m in Sources */,
+				BF90A7C51D6831B6000D1381 /* main.m in Sources */,
+				BF90A7E61D683B0E000D1381 /* JGNotificationVC.m in Sources */,
+				BF90A7C41D6831B6000D1381 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF90A79C1D683161000D1381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF90A7A51D683161000D1381 /* TansData_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF90A7A71D683161000D1381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF90A7B01D683161000D1381 /* TansData_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF90A7A21D683161000D1381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF90A7861D683161000D1381 /* TansData-Demo */;
+			targetProxy = BF90A7A11D683161000D1381 /* PBXContainerItemProxy */;
+		};
+		BF90A7AD1D683161000D1381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF90A7861D683161000D1381 /* TansData-Demo */;
+			targetProxy = BF90A7AC1D683161000D1381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF90A7931D683161000D1381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF90A7941D683161000D1381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF90A7981D683161000D1381 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF90A7991D683161000D1381 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF90A7B21D683161000D1381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF90A7B31D683161000D1381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF90A7B51D683161000D1381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TansData-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stkcctv.TansData-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF90A7B61D683161000D1381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TansData-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stkcctv.TansData-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF90A7B81D683161000D1381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TansData-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stkcctv.TansData-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TansData-Demo.app/TansData-Demo";
+			};
+			name = Debug;
+		};
+		BF90A7B91D683161000D1381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TansData-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stkcctv.TansData-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TansData-Demo.app/TansData-Demo";
+			};
+			name = Release;
+		};
+		BF90A7BB1D683161000D1381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TansData-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stkcctv.TansData-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TansData-Demo";
+			};
+			name = Debug;
+		};
+		BF90A7BC1D683161000D1381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TansData-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stkcctv.TansData-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TansData-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF90A7821D683161000D1381 /* Build configuration list for PBXProject "TansData-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF90A7B21D683161000D1381 /* Debug */,
+				BF90A7B31D683161000D1381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF90A7B41D683161000D1381 /* Build configuration list for PBXNativeTarget "TansData-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF90A7B51D683161000D1381 /* Debug */,
+				BF90A7B61D683161000D1381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF90A7B71D683161000D1381 /* Build configuration list for PBXNativeTarget "TansData-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF90A7B81D683161000D1381 /* Debug */,
+				BF90A7B91D683161000D1381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF90A7BA1D683161000D1381 /* Build configuration list for PBXNativeTarget "TansData-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF90A7BB1D683161000D1381 /* Debug */,
+				BF90A7BC1D683161000D1381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF90A77F1D683161000D1381 /* Project object */;
+}
